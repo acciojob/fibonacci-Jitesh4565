@@ -11,6 +11,6 @@ function fibonacci(num) {
 			num2=sum;
 		}
 	return num2
-}
+};
 
 module.exports = fibonacci;
