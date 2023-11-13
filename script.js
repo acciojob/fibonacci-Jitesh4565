@@ -1,8 +1,8 @@
 function fibonacci(num) {
 // your code here
-	let num1=0;
-	let num2=1;
-	let sum=0;
+	let num1=BigInt(0);
+	let num2=BigInt(1);
+	let sum;
 	let i=0;
 	for( i=0; i<num; i++)
 		{
@@ -10,7 +10,7 @@ function fibonacci(num) {
 			num1=num2;
 			num2=sum;
 		}
-	return num1
+	return num1.toString();
 };
 
 module.exports = fibonacci;
